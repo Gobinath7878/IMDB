@@ -1,0 +1,15 @@
+CREATE TABLE IMDB (
+  MOVIE VARCHAR NOT NULL,
+  MEDIA NVARCHAR,
+  GENRE TEXT NOT NULL,
+  USER_NAME VARCHAR NOT NULL,
+  REVIEWS VARCHAR NOT NULL,
+  ARTIST VARCHAR NOT NULL,
+  SKILLS CHAR(20) NOT NULL
+);
+
+
+Insert into imdb values ("Kaithi",'https://m.media-amazon.com/images/M/MV5BZjk4Njg4YjktYzU5Zi00ZWY1LWE4NTUtNWI2MjU4MDE3ZGRmXkEyXkFqcGdeQXVyODIwMDI1NjM@._V1_FMjpg_UX1000_.jpg',"Commercial","gobi@gmail.com","good","karthi","actor");
+Insert into imdb values ("Vikram",'https://m.media-amazon.com/images/M/MV5BMzY4NTVhZmYtZmY2Mi00Y2UzLThkMzAtYTE3M2ZmMDlhZTQzXkEyXkFqcGdeQXVyMTQ3Mzk2MDg4._V1_.jpg',"Commercial","gobi12@gmail.com","good","Kamal","actor");
+
+select * from imdb
